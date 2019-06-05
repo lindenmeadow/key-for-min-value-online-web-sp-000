@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     nil
   elsif !name_hash.empty?
     name_hash.each do |name, value|
-      if value == 1 || value == 17
+      if value == 1 || value == 10
         name
       end
     end
