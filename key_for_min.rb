@@ -7,5 +7,6 @@ def key_for_min_value(name_hash)
       nil
     elsif value == 1 || value == 17
       name
+    end
   end
 end
