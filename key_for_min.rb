@@ -5,9 +5,8 @@ def key_for_min_value(name_hash)
   if name_hash.empty?
     nil
   elsif !name_hash.empty?
-    name_hash.each do |name, value|
-      if name.value?(1) || name.value(10)
-        name
+      if  name_hash.index(1) || name_hash.index(10) 
+        index
       end
     end
   end
