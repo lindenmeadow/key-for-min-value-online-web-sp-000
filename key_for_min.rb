@@ -8,6 +8,5 @@ def key_for_min_value(name_hash)
       if  name_hash.index(1) || name_hash.index(10)
         index
       end
-    end
   end
 end
